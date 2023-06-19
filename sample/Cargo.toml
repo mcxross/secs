@@ -5,4 +5,7 @@ edition = "2021"
 
 [dependencies]
 secs = { path = "../secs" }
+sui-sdk = { git = "https://github.com/MystenLabs/sui", branch = "devnet" }
+anyhow = "1.0.64"
+tokio = "1.28.1"
 bevy = "0.10.1"
